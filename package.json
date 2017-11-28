@@ -2,5 +2,8 @@
   "name": "game",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "0.9.5"
+  }
 }
