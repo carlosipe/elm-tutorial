@@ -7,6 +7,11 @@ type alias Model =
     String
 
 
+init : ( Model, Cmd Msg )
+init =
+    ( "Hello", Cmd.none )
+
+
 type Msg
     = NoOp
 

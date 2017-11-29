@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "api": "node api.js",
+    "build": "webpack",
+    "client": "webpack-dev-server --host carlosipe.com --port 8000"
+  },
   "dependencies": {
     "ace-css": "1.1",
     "css-loader": "^0.28.7",
